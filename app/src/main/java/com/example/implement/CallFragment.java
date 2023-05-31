@@ -48,7 +48,7 @@ public class CallFragment extends Fragment {
     TextView tvDuration,tvNumbPhone;
     LinearLayout grOpt;
     ImageView btnEnd,btnAccept,optTransfer,optToggleSpeaker,optToggleMic;
-    TextView optToggle;
+    ImageView optToggle;
 
     private String convertTimeToString(int countTime){
         int second = countTime % 60;
@@ -83,8 +83,7 @@ public class CallFragment extends Fragment {
         optTransfer = view.findViewById(R.id.opt_transfer);
         optToggle.setOnClickListener(v->{
             isPaused = !isPaused;
-            optToggle.setBackground((isPaused)?holdSelected:hold);
-            optToggle.setTextColor(Color.parseColor((isPaused)?"#FF000000":"#FFFFFFFF"));
+            optToggle.setImageDrawable((isPaused)?resume:pause);
             if(isPaused) Factory.holdCall();
             else Factory.resumCall();
         });

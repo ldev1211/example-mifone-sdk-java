@@ -51,7 +51,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="bottom"
                         android:gravity="center"
-                        android:text="Midule"
+                        android:text="Mifone SDK"
                         android:textSize="22sp"
                         android:textColor="#000"
                         android:textStyle="bold"/>

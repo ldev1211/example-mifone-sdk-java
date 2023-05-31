@@ -64,12 +64,11 @@
                 android:layout_marginRight="50dp"
                 app:srcCompat="@drawable/transfer"
                 app:tint="@color/white" />
-            <TextView
+            <ImageView
                 android:id="@+id/opt_toggle_pause_or_resume"
                 android:layout_width="100dp"
                 android:layout_height="50dp"
                 android:text="Hold"
-                android:background="@drawable/shape_hold"
                 android:textSize="16sp"
                 android:gravity="center"
                 android:textColor="@color/white"
