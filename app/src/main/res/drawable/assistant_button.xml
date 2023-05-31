@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+	android:color="#81D4FA">
+	<item >
+		<selector xmlns:android="http://schemas.android.com/apk/res/android">
+			<item android:state_enabled="false"
+				android:drawable="@drawable/custom_button_login_enable"/>
+			<item
+				android:drawable="@drawable/custom_button_login" />
+		</selector>
+	</item>
+</ripple>
+
+
